@@ -128,6 +128,8 @@ The function does a GET, waiting for a maximum of 'num' clock ticks of 10ms each
 
 A negative parameter can be specified as a [RISCOS-compatible keyvalue](https://www.riscos.com/support/developers/bbcbasic/appendices/inkeyvalues.html) to immediately check for. INKEY returns with -1 when the given key is pressed, or 0 if not pressed.
 
+`INKEY(-256)` returns the Agon machine type, `&41` (65, ASCII 'A').
+
 
 ## TINT behavior
 Syntax: ````<n-var>=TINT(X,Y)````
